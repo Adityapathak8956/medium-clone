@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    border-bottom:1px solid lightgray;
+}
+
+.topbar input{
+    width:300px;
+    padding:10px;
+}
+
+.container{
+    display:flex;
+}
+
+.sidebar{
+    width:20%;
+    padding:20px;
+    border-right:1px solid lightgray;
+}
+
+.feed{
+    width:50%;
+    padding:20px;
+}
+
+.post{
+    border-bottom:1px solid lightgray;
+    padding:20px 0;
+}
+
+.rightbar{
+    width:30%;
+    padding:20px;
+    border-left:1px solid lightgray;
+}
+
+.rightbar button{
+    margin:5px;
+    padding:8px 15px;
+    border:none;
+    border-radius:20px;
+    background:#eeeeee;
+}
