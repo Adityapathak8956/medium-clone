@@ -1,6 +1,4 @@
-function showSignup()
+function goToHome()
 {
-    document.getElementById("home").style.display = "none";
-
-    document.getElementById("signup").style.display = "block";
+    window.location.href = "home.html";
 }
